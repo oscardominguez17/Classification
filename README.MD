@@ -155,3 +155,19 @@ The results show us that Decision Tree obtained the best results in all metrics 
 
 
 ### Findings
+
+We analyzed different classification methods such as KNN, Logistic Regression, Decision Tree and SVM with different parameters, in order to find the method that had the best performance for this project, in the process we found that Decision Tree obtained the best results in all metrics and also a reasonable training time. For this reason we can conclude that it is the best model for this dataset.
+
+The SVC did not obtain bad results in terms of score, it could even be said that it was the second best, but the long time it took to train leads us to think that this may be a definitive factor to discard it and opt for Decision Tree.
+
+Identifying some important factors can help us be more efficient in future campaigns, such as:
+
+- Duration is the aspect that is most positively correlated with success,
+- The outcome of the previous marketing campaign is also a very important feature
+- success is most likely to occur in the last month of each quarter (March, June, September and December)
+
+### Next Steps and Recomendations
+
+- The next campaigns can be based on the aspects already identified in this analysis, trying to focus the maximum effort on the last months of each quarter, clients with whom there has already been success in previous campaigns and also trying to generate sufficient interest in the client. so that calls last longer.
+
+- The models could be tested with some other features that were not used in this study.
